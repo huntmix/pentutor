@@ -1,0 +1,129 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-right: -10px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 11;
+  left: 0;
+  right: 20;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 2.5px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(14px);
+  -ms-transform: translateX(14px);
+  transform: translateX(14px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.ot{
+float: left; 
+margin-top:12px;
+margin-right:10px;
+}
+.step {
+	display: none;
+
+}
+.warn {
+	margin-right:0px;
+	margin-bottom:10px;
+	color:#ffffff;
+	
+}
+h3 {
+	color:white;
+}
+
+.options
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+ 
+}
+.ot2{
+	margin-right:10px;
+	
+}
+.app{
+	float:left;
+height:150px;
+width:150px;
+	margin-right:10px;
+}
+
+.next{
+	
+	margin-top:50px;
+}
+.re {
+margin-bottom:0px;
+
+}.re1{
+
+
+	font-size:25px;
+	color:#fff;
+}.re2 {
+
+
+	size:15px;
+	color:#fff;
+}
+.applist{
+	font-size: 11px;
+color:#fff;
+}
+.katalog{
+ width:85%;
+ margin-left:30px;
+}
+.c{
+	color:#fff;
+	 font: 30px 'Montserrat';
+}
