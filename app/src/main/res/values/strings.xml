@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pentutor</string>
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+    <string name="nav_header_title">Pentutor 7.0(GP)</string>
+    <string name="nav_header_subtitle">Пентест - это так просто!</string>
+    <string name="nav_header_desc">Pentutor 7.0</string>
+    <string name="action_back">Назад</string>
+    <string name="action_refresh">Перезагрузить</string>
+    <string name="action_copy">Скопировать ссылку</string>
+    <string name="storage_manifest">Предоставьте доступ к хранилищу пожалуйста! </string>
+    <string name="storage_manifest_title">Требуется разрешение!</string>
+    <string name="download_info">Загрузка...</string>
+    <string name="about_title">Wifi</string>
+    <string name="about_content"> </string>
+    <string name="action_settings">Настройки</string>
+    <string name="share">Хочешь научиться пентесту? Скачай пентутор! https://play.google.com/store/apps/details?id=com.penHome.tutorials </string>
+</resources>

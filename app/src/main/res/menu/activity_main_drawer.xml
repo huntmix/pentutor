@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:checkableBehavior="single"
+        android:title="Разделы">
+        <menu>
+        <item
+            android:id="@+id/wifi"
+            android:icon="@drawable/wifi"
+            android:title="WiFi тестирование" />
+        <item
+            android:id="@+id/sites"
+            android:icon="@drawable/web"
+            android:title="Тестирование сайтов" />
+        <item
+            android:id="@+id/nh"
+            android:icon="@drawable/nh"
+            android:title="Kali Nethunter" />
+        <item
+            android:id="@+id/anon"
+            android:icon="@drawable/anon"
+            android:title="Анонимность" />
+            <item
+                android:id="@+id/fish"
+                android:icon="@drawable/fish"
+                android:title="Социальная инженерия" />
+            <item
+                android:id="@+id/hid"
+                android:icon="@drawable/hid"
+                android:title="HID атаки" />
+            <item
+                android:id="@+id/mitm"
+                android:icon="@drawable/mitm"
+                android:title="MITM атаки" />
+            <item
+                android:id="@+id/brute"
+                android:icon="@drawable/brute"
+                android:title="Брутфорс" />
+            <item
+                android:id="@+id/msf"
+                android:icon="@drawable/msf"
+                android:title="Metasploit Framework" />
+            <item
+                android:id="@+id/shodan"
+                android:icon="@drawable/shodan"
+                android:title="Shodan" />
+            <item
+                android:id="@+id/nice"
+                android:icon="@drawable/nice"
+                android:title="Полезное" />
+            <item
+                android:id="@+id/stat"
+                android:icon="@drawable/stat"
+                android:title="Статьи" />
+            <item
+                android:id="@+id/nice2"
+                android:icon="@drawable/nice2"
+                android:title="Поддержать проект" />
+            <item
+                android:id="@+id/apps"
+                android:icon="@drawable/app"
+                android:title="Приложения" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/help"
+                android:title="Обратная связь" />
+
+
+
+        </menu>
+    </item>
+
+
+</menu>
