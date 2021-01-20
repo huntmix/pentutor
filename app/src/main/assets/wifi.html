@@ -1,0 +1,321 @@
+<html>
+<head>
+<link href="assets/css/main.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="assets/js/main.js" type="text/javascript" ></script>
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <title>PenTutor</title>
+  <link href="./assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
+  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+</head>
+<body class="index-page" width="100%" height="100%">
+
+    <div class="main">
+      <div class="section section-basic" id="basic-elements">
+        <div class="container">
+          <center><h2 class="title">WiFI Assistant</h2><p class="category"><b>Получи пошаговую инструкцию как быстрее протестировать сеть и получить результат!</b></p></center>
+          
+          <div class="row">
+  
+<div class="option">
+
+<label class="switch">
+  <input type="checkbox" onclick="ShowWps()" id="ShowWps">
+  <span class="slider round"></span>
+</label><p class="ot"> WPS </p>
+</div>
+<div class="option ot2">
+
+<label class="switch">
+  <input type="checkbox" onclick="ShowNh()" id="ShowNh" >
+  <span class="slider round"></span>
+</label><p class="ot">   Nethunter </p>
+</div>
+<div class="option">
+
+<label class="switch">
+  <input type="checkbox" onclick="ShowNoRoot()" id="ShowNoRoot" >
+  <span class="slider round"></span>
+</label><p class="ot">   No Root </p>
+</div>
+</div>
+<div id="notice">
+<div class="card">
+                
+                <div class="card-body">
+                  <!-- Tab panes -->
+                  
+				   <div class="tab-content">
+   
+                      <center><p><b>Напоминание</b></br></center>
+					 <p>Выбери нужные тебе параметры и приложение выдаст пошаговую инструкцию от самых быстрых и легких шагов до сложных и затратных! Обратите внимание: если действие требует рут или что то ещё, это будет указано слева! Если элемент подсвечен - значит он кликабельный!
+					 </p>
+         
+                   
+                  </div>
+				  
+		
+                </div>
+              </div>
+			  <div class="card">
+			 
+                <div class="card-header">
+                  <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" data-toggle="tab" href="#link20" role="tablist">
+                        Уязв.
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#link21" role="tablist">
+                        Угрозы
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#link22" role="tablist">
+                        Защита
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+               
+                  <div class="tab-content tab-space">
+                    <div class="tab-pane active" id="link20">
+                      <p><ul>
+					  <p>WPS протокол</p>
+					  <li>PixieDust</li>
+					  <li>Standart PIN</li>
+					  <li>InfoShow</li>
+					  <li>Arcadyan/Belkin</li>
+					  <p>Другое</p>
+					  <li>Handshake</li>
+					  <li>Brute</li>
+					  <li>Deauth</li>
+					  </ul></p>
+						</div>
+                    <div class="tab-pane" id="link21">
+                      <p>Что может сделать злоумышленик имея доступ к сети <ul>
+					  <li>Перенаправлять DNS запросы</li>
+					  <li>Встраивать фишинг ссылки</li>
+					  <li>Просматривать траффик</li>
+					  <li>Получать пароли</li>
+					  <li>Получать доступ к ftp</li>
+					  <li>Отключение от сети</li>
+					  <li>и другое</li>
+					  </ul> </div><div class="tab-pane" id="link22">
+                      <p>Защита:<ul>
+					  <li>Новый роутер и последняя прошивка</li>
+					  <li>Отключить WPS протокол</li>
+					  <li>Поставьте сложный пароль</li>
+					  <li>Изолируйте пользователей</li>
+					  </ul>
+					  </br></p> 
+			
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div id="wps" class="step">
+
+       <center>  <b><h3>Pixie WPS</h3></b></center>
+      
+              <div class="card">
+                
+                <div class="card-body">
+                  <!-- Tab panes -->
+                  
+				   <div class="tab-content">
+         <p class="warn" color="#8B0000"><b>Требуется ROOT</b></p>
+                      <center><p><b>WPS APP PRO</b></br></center>
+					 <p> 1)Устанавливаем приложение и выдаем права</br>
+					  2)Сканируем сети и нажимаем на нужную! <br><a id="IWAP" href="#WAP" onclick="ImageWAP()">Показать изображение</a></br></p>
+					  <div id="WAP" class="step"><center><img src="assets/img/WAP.jpg"></center></div><p>
+					  3)Выбираем сеть, выключаем wifi, нажимаем pixie dust</br>
+					  3)После получения пин кода нажимаем подключится и готово</br>
+					  P.s. Нажмите "Информация WPS" для получения модели роутера!
+					 </p>
+         
+                   
+                  </div>
+				  
+				  <center><button id="showwps2" class="btn btn-info2 btn-round btn-lg " onclick="ShowWps2()">Не  вышло!</button></center>
+                </div>
+              </div>
+			  
+
+
+
+
+
+
+</div>
+<div id="wps2" class="step">
+ <center>  <b><h3>Стандартные пинкоды</h3></b></center>
+      
+              <div class="card">
+                
+                <div class="card-body">
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <p class="warn" color="#8B0000"><b>Требуется ROOT</b></p>
+                      <center><p><b>Wifi Warden</b></br></center>
+					 <p> 1)Устанавливаем приложение и выдаем права</br>
+					  2)Выбираем вкладку сканирование и нажимаем на нашу сеть</br>
+					  3)Выбираем "Вход с помощью WPS" и подобрать пин</br>
+				<a id="IWW" href="#IWW" onclick="ImageWW()">Показать изображение</a></br></p>
+					  <div id="WW" class="step"><center><img src="assets/img/WW.jpg"></center></div><p>
+					  4)Ждем пока завершится подбор, если атака успешная, вам сообщат что вы подключены к сети!</br>
+					 </p>
+         
+                   
+                  </div>
+				   <center><button id="showwps3" class="btn btn-info2 btn-round btn-lg " onclick="ShowWps3()">Не  вышло!</button></center>
+                </div>
+              </div>
+</div>
+<div id="wps3" class="step">
+ <center>  <b><h3>Брут пинкодов</h3></b></center>
+      
+              <div class="card">
+                
+                <div class="card-body">
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <p class="warn" color="#8B0000"><b>Требуется ROOT</b></p>
+                      <center><p><b>WPS WPA TESTER</b></br></center>
+					 <p> 1)Устанавливаем приложение и выдаем права</br>
+					  2)Выбираем вкладку сканирование ждем нужную нам сеть</br>
+					  3)Выбираем её кликнув по ней</br>
+				<a id="IWWT" href="#IWWT" onclick="ImageWWT()">Показать изображение</a></br></p>
+					  <div id="WWT" class="step"><center><img src="assets/img/WWT.jpg"></center></div><p>
+					  4)Нажимаем Brute wps и ставим на зарядку, процесс очень долгий и шансы малы!..</br>
+					 </p>
+         
+                   
+                  </div>
+				  
+                </div>
+              </div>
+</div>
+<div id="nh" class="step">
+ <center>  <b><h3>Захват хендшейка</h3></b></center>
+      
+              <div class="card">
+                
+                <div class="card-body">
+                  <!-- Tab panes -->
+                  
+				   <div class="tab-content">
+        <p class="warn" color="#8B0000"><b>Требуется <a href="nethunter.html">Nethunter</a></b></p>
+                      <center><p><b>Wifite</b></br></center>
+					 <p> 1)Подключаем внешний адаптер</br>
+					  2)Пишем <i  >wifite --no-wps</i></br>
+					  3)Выбираем сеть, и ждем пока хендшейк поймается</br>
+					  4)Заходим на onlinehashcrack и расшифровываем</br>
+					 </p>
+         
+                   <center><button id="shownh2" class="btn btn-info2 btn-round btn-lg " onclick="ShowNh2()">Не  вышло!</button></center>
+                  </div>
+				  
+				  
+                </div>
+              </div>
+			  <div id="nh2" class="step">
+			  <center>  <b><h3>Злой двойник</h3></b></center>
+      
+              <div class="card">
+                
+                <div class="card-body">
+                  <!-- Tab panes -->
+                  
+				   <div class="tab-content">
+        <p class="warn"><b>Требуется <a href="nethunter.html">Nethunter/VNC/</a><a href="https://huntmix.ru/notice.html">Адаптер</a></b></p>
+                      <center><p><b>Fluxion</b></br></center>
+					 <p> 1)Подключаем внешний адаптер и заходим в VNC</br>
+					  2)Пишем <i  >git clone https://github.com/FluxionNetwork/fluxion && cd fluxion</i><br><i> ./fluxion.sh -i</i></br>
+					  3)Выбираем язык->захват хендшейка, и ждем пока хендшейк поймается</br>
+					  4)Выбираем другую атаку, оставляем нашу же сеть</br>
+					  5)Выбираем страничку логина и адаптеры</br>
+					  6)Ждем пока жертва сообщит нам пароль)</br>
+					 </p>
+         
+                   
+                  </div>
+				  
+				 
+                </div>
+              </div>
+</div></div>
+
+
+<div id="NoRoot" class="step">
+<center>  <b><h3>Брут паролей</h3></b></center>
+      
+              <div class="card">
+                
+                <div class="card-body">
+                  <!-- Tab panes -->
+                  
+				   <div class="tab-content">
+
+                      <center><p><b>Wibr+</b></br></center>
+					 <p> 1)Скачиваем <a href="https://huntmix.ru/apps2.html">WIBR+</a></br>
+					  2)Cканируем сети</i></br>
+					  3)Выбираем сеть, и словарь</br>
+					  <a id="IWIBR" href="#WIBR" onclick="ImageWIBR()">Показать изображение</a></br></p>
+					  <div id="WIBR" class="step"><center><img src="assets/img/WIBR.jpg"></center></div><p>
+					  4)Ждем пока пароль подберётся</br>
+					 </p>
+         
+                   
+                  </div>
+				  
+			
+                </div>
+              </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script type=text/javascript>
+document.getElementById("ShowWps").checked = false;
+document.getElementById("ShowNh").checked = false;
+document.getElementById("ShowNoRoot").checked = false;
+
+</script>
+</body>
+</html>
